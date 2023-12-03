@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>iCodeMas #02</title>
+    <link rel="icon" href="https://icodethis.com/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Featured Products</h1>
+        <p class="subtitle">Discover the magic of the season with our handpicked Featured Products. From enchanting decorations to delightful gifts, these curated items are sure to add a touch of joy to your festive celebrations.</p>
+        <div class="selector">
+            <div class="item-wrapper selected" data-sticker="NEW" data-color="#2D7190">
+                <img src="img/tree.png" class="item">
+            </div>
+            <div class="item-wrapper" data-sticker="-25%" data-color="#E64F4E">
+                <img src="img/gift.png" class="item">
+            </div>
+            <div class="item-wrapper" data-color="#FCCA6D">
+                <img src="img/gingerbread_cookie.png" class="item">
+            </div>
+        </div>
+        <div class="featured selected">
+            <img class="featured-img" src="img/tree.png">
+            <div class="featured-sticker" data-color="#2D7190"></div>
+            <h3 class="featured-title">Christmas Tree Decoration</h3>
+            <div class="featured-price">$19.99</div>
+            <div class="featured-rating" data-value="4.6"></div>
+            <p class="featured-subtitle">Perfect for adding a festive touch to any space, this miniature tree brings the magic of Christmas right into your home. Crafted with care, it's a delightful ...</p>
+            <button class="featured-btn">Add to cart</button>
+        </div>
+        <div class="featured">
+            <img class="featured-img" src="img/gift.png">
+            <div class="featured-sticker" data-color="#E64F4E"></div>
+            <h3 class="featured-title">Gift</h3>
+            <div class="featured-price">$99.99</div>
+            <div class="featured-rating" data-value="0.4"></div>
+            <p class="featured-subtitle">A gift...</p>
+            <button class="featured-btn">Add to cart</button>
+        </div>
+        <div class="featured">
+            <img class="featured-img" src="img/gingerbread_cookie.png">
+            <div class="featured-sticker" data-color="#2D7190"></div>
+            <h3 class="featured-title">Gingerbread Cookie</h3>
+            <div class="featured-price">$5.00</div>
+            <div class="featured-rating" data-value="11"></div>
+            <p class="featured-subtitle">A gingerbread cookie...</p>
+            <button class="featured-btn">Add to cart</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
